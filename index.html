@@ -1,0 +1,393 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 10]>      <html class="no-js lt-ie11 lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 10]>         <html class="no-js lt-ie11 lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 11]>         <html class="no-js lt-ie11"> <![endif]-->
+<!--[if gt IE 11]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">     
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+
+	<title>My Portfolio</title>
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/hamburgers.min.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/rslides.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/skitter.styles.min.css" type="text/css" media="all"  />
+	<link rel="stylesheet" href="css/animate.min.css">
+	 <!-- Para sa Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	 <!-- end -->
+
+</head>
+	<body class="front_page">
+		<div class="protect-me">
+		<div class="clearfix">
+
+<!-- Header -->
+<header>
+	<div class="wrapper">
+		<div class="header_con">
+			<div class="main_logo">
+			  <a href="#nav_area"><figure><img src="images/main-logo.png" alt="<?php //echo get_bloginfo('name');?>"/></figure></a>
+			</div>
+
+			<div class="head_info">
+				<!-- <div class="header_info">
+					<ul>
+						<li><span>XXX</span> <a href="tel:XXX" class="tele"><mark>XXX</mark></a></li>
+						<li><span>XXX</span> <a href="mailto:XXX" class="mail">XXX</a></li>
+					</ul>
+				</div> -->
+				<div class="social_media">
+					<h3>Reach Us!</h3>
+					<ul>
+						<li><a href="https://www.facebook.com" target="_blank"><figure><img src="images/fb-icon.png" alt="facebook"/></figure></a></li>
+						<li><a href="https://www.twitter.com" target="_blank"><figure><img src="images/twitter-icon.png" alt="twitter"/></figure></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	  <div class="clearfix"></div>
+	</div>
+</header>
+<!-- End Header -->
+
+<!-- Navigation -->
+<div id="nav_area">
+	<div class="nav_toggle_button">
+	<div class="logo_wrap"></div>
+		<div class="toggle_holder">
+			<div class="hamburger hamburger--spin-r">
+			  <div class="hamburger-box">
+				<div class="hamburger-inner"></div>
+			  </div>
+			</div>
+			<small>Menu</small>
+		</div>
+	<div class="clearfix"></div>
+	</div>
+
+	<div class="toggle_right_nav">
+	  <nav class="page_nav">
+			<div class="menu_slide_right">
+				<a href="<?php //echo get_home_url(); ?>" class="logo_slide_right"><figure><img src="images/main-logo.png" alt="<?php //echo get_bloginfo('name');?>"/></figure></a>
+				<div class="toggle_holder">
+					<div class="hamburger hamburger--spin-r">
+					  <div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+					  </div>
+					</div>
+					<small>Close</small>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+
+			<div class="wrapper">
+				<!--?php wp_nav_menu( array( 'container_class' => 'nav-menu', 'theme_location' => 'primary', 'after' => '<span><i class="fa fa-2x">&nbsp;&nbsp;&nbsp;&nbsp;</i></span>') ); ?-->
+				<ul>
+					<li class="current_page_item"><a href="">Home</a></li>
+					<li><a href="#bottom1">About Us</a></li>
+					<li><a href="#bottom2">Experience</a></li>
+					<li><a href="#contact">Contact Us</a></li>
+				</ul>
+			</div>
+	  </nav>
+		<div class="toggle_nav_close"></div>
+	</div>
+</div>
+<!-- End Navigation -->
+
+<!-- Banner -->
+<div id="banner">
+	<div class="wrapper">
+		<div class="bnr_con">
+			<div class="slider">
+				<div class="box_skitter box_skitter_large">
+					<ul>
+						<li><figure><img src="images/slider/1.jpg" alt=""/></figure></li>
+						<li><figure><img src="images/slider/2.jpg" alt=""/></figure></li>
+						<li><figure><img src="images/slider/3.jpg" alt=""/></figure></li>
+					</ul>
+				</div>
+				<ul class="rslides tablet">
+					<li> <figure><img src="images/slider/1.jpg" alt="" /></figure> </li>
+					<li> <figure><img src="images/slider/2.jpg" alt="" /></figure> </li>
+					<li> <figure><img src="images/slider/3.jpg" alt="" /></figure> </li>
+				</ul>
+				<ul class="rslides mobile">
+					<li> <figure><img src="images/slider/mobile/1.jpg" alt="" /></figure> </li>
+					<li> <figure><img src="images/slider/mobile/2.jpg" alt="" /></figure> </li>
+					<li> <figure><img src="images/slider/mobile/3.jpg" alt="" /></figure> </li>
+				</ul>
+			</div>
+
+			<div class="bnr_info wow fadeInUp" data-wow-duration="2091ms">
+				<h2><small>Hi, Im</small>Ritchie <span>Abedania</span></h2>
+				<p>Here are my some sample project done to my previous job.</p>
+				<a href="#bottom3" class="btn">See More<span></span></a>
+			
+			</div>
+			
+		</div>
+	</div>
+</div>
+<!-- End Banner -->
+
+<!-- Main -->
+<div id="main_area">
+	<div class="wrapper">
+		<div class="main_con">
+			<main class="wow fadeInUp"  data-wow-duration="2091ms">
+				<h1 class="h1_title"><small>Thank you for Visiting</small>I`am RITCHIE P. ABEDANIA</h1>
+				<h3 class="text-animation">I'm a <span></span></h3>
+				<p>I`m only Proficient in HTML / CSS bulding responsive websites but i am still learing for javascript. And I`m Using XARA Premium for the Web Design.</p>
+				<a href="images/MyCV.pdf" download="" class="btn">MyCV here</a>
+			</main>
+
+			<aside class="sidebar restatic" >
+				<section class="sidebox1  wow fadeInRight" data-wow-duration="2091ms">
+					<figure><img src="images/chie.png" alt=""></figure>
+				</section>
+			</aside>
+		</div>
+
+	<div class="clearfix"></div>
+	</div>
+</div>
+<!-- End Main -->
+
+<!-- Bottom -->
+<div id="bottom1">
+	<div class="wrapper">
+		<div class="btm1_con">
+
+			<div class="btm1_info">
+				<h2><small>About</small> Us</h2>
+			</div>
+
+			<div class="btm1_boxes wrap">
+
+				<section class="btm1_box1 wow fadeInLeft" data-wow-duration="2091ms">
+					<h2>Ritchie<span>Abedania</span></h2>
+					<p>From Philippines</p>
+					<p>Address: Subusub, Rosario, La Union</p>
+					<p>Age: 30</p>
+					<p><a href="mailto:abedania67@gmail.com">abedania67@gmail.com</a></p>
+					
+				</section>
+
+				<section class="btm1_box2 wow fadeInRight" data-wow-duration="2091ms">
+					<h2>Educational <span>Attaintment</span></h2>
+					<p>BS. Computer Engineering</p>
+					<p>Baguio College of Technology</p>
+				</section>
+
+				
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="bottom2">
+	<div class="wrapper">
+		<div class="btm2_con">
+
+			<div class="btm2_info">
+				<h2><small>My</small> Experience</h2>
+			</div>
+
+			<div class="btm2_boxes wrap">
+
+				<section class="btm2_box1 wow fadeInLeft" data-wow-duration="2091ms">
+					<h2>Front-End Web Developer <span>- May 13, 2019 - March 26, 2020</span></h2>
+					<p><span>E-lab B.V.,</span> Utrecht, Netherlands (Remote)</p>
+					<ul>
+						<li>•	Determines the structure and design of web pages.</li>
+						<li>•	Designing and developing codes for front-end web applications.</li>
+						<li>•	Follows best practices to improve application performance.</li>
+						<li>•	Performs code reviews and recommend changes.</li>
+						<li>•	Performs code upgrades and maintenances for current applications.</li>
+						<li>•	Works with cross-functional teams to ensure on-time delivery.</li>
+					</ul>
+					
+				</section>
+
+				<section class="btm2_box2 wow fadeInUp" data-wow-duration="2091ms">
+					<h2>Project Coordinator / Manager <span>– PLDT telecom (Subcon : RAPTEL OPC 2021 – 2022)</span></h2>
+					<ul>
+						<li>•	Leadership: As the primary point of contact for team members, you must be able to provide guidance, feedback, and encouragement for achieving goals.</li>
+						<li>•	Computers and data entry: Budgets and other important documents for companies are usually created on computers and sometimes maintained in databases.</li>
+						<li>•	Problem-solving: Although project managers may step in to handle significant problems, you should be prepared to work through and resolve minor issues without assistance.</li>
+						<li>•	Positive attitude: Generally, a positive outlook makes it easier to handle the stress of unexpected challenges and also helps the entire team stay positive and motivated.</li>
+					</ul>
+				</section>
+
+				<section class="btm2_box3 wow fadeInRight" data-wow-duration="2091ms">
+					<h2>House Plan Illustrator <span>- Freelance</span></h2>
+					<p>From Philippines</p>
+				<ul>
+					<li>•	Preparing hand-drawing/digital house plans (ready-made or as per Client’s request/suggestions)</li>
+					<li>•	Liaising with the Client for suggestions and approval.</li>
+				</ul>
+					
+				</section>
+
+				
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div id="bottom3">
+	<div class="wrapper">
+		<div class="btm3_con">
+
+			<div class="btm3_info">
+				<h2><small>Previous</small> Projects</h2>
+			
+			</div>
+
+			<div class="btm3_boxes wrap ">
+				<div class="btm3_owl owl-carousel">
+
+				<section class="btm3_box1">
+					<figure><img src="images/1.jpg" alt=""></figure>
+				</section>
+
+				<section class="btm3_box2">
+					<figure><img src="images/2.jpg" alt=""></figure>
+				</section>
+
+				<section class="btm3_box3">
+					<figure><img src="images/3.jpg" alt=""></figure>
+				</section>
+
+				<section class="btm3_box4">
+					<figure><img src="images/4.jpg" alt=""></figure>
+				</section>
+
+				<section class="btm3_box5">
+					<figure><img src="images/5.jpg" alt=""></figure>
+				</section>
+
+				<section class="btm3_box6">
+					<figure><img src="images/6.jpg" alt=""></figure>
+				</section>
+
+				<section class="btm3_box7">
+					<figure><img src="images/7.jpg" alt=""></figure>
+				</section>
+
+				
+			</div>
+		</div>
+		
+		</div>
+	</div>
+</div>
+<!-- End Bottom -->
+
+<!--Footer -->
+<footer>
+	<div id="contact">
+<div class="footer_top">
+	<div class="wrapper">
+		<div class="footer_top_con">
+			<div class="contact_info">
+				<h2><small>Reach</small> Me</h2>
+				<ul>
+					<li><address>Rosario<q>,</q> La Union</address> </li>
+					<li><span>Phome: </span> <a href="tel:09771736741"><mark>+639771736741</mark></a></li>
+					<li><span>Email: </span> <a href="mailto:abedania67@gmail.com ">abedania67@gmail.com</a></li>
+				</ul>
+			</div>
+
+			<div class="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122572.30271106065!2d120.3103715543736!3d16.252054564271354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339173bf6d136671%3A0x323a3888123bf379!2sRosario%2C%20La%20Union!5e0!3m2!1sen!2sph!4v1729929670419!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+
+			<!-- <div class="logo_rights">
+				<div class="footer_logo">
+					<a href="<?php //echo get_home_url(); ?>"><figure><img src="images/footer-logo.png" alt=""></figure></a>
+				</div> -->
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="footer_btm">
+  <div class="wrapper">
+			<div class="footer_btm_con">
+				<div class="footer_nav">
+					<!--?php wp_nav_menu( array('theme_location' => 'secondary' ) ); ?-->
+					<ul>
+						<li class="current_page_item"><a href="index.php">Home</a></li>
+						<li><a href="#bottom1">About Us</a></li>
+						<li><a href="#bottom2">Experience</a></li>
+						<li><a href="#contact">Contact Us</a></li>
+					</ul>
+				</div>
+
+				<div class="copyright">
+				  &copy; Copyright
+						<?php
+						$start_year = '2024';
+						$current_year = date('Y');
+						$copyright = ($current_year == $start_year) ? $start_year : $start_year.' - '.$current_year;
+						echo $copyright;
+						?>
+				  <!-- <span class="footer_comp"><a href="#" class="privacy">Privacy Policy</a></span> -->
+				  <span class="designed_by"> <a class="copyrigh_text">Designed by</a> <a href="#" target="_blank" rel="nofollow">R.P.A</a> </span>
+				</div>
+			</div>
+		</div>
+</div>
+</footer>
+
+	<span class="back_top"></span>
+
+  </div> <!-- End Clearfix -->
+  </div> <!-- End Protect Me -->
+
+  <!--?php get_includes('ie');?-->
+
+  <!--
+  Solved HTML5 & CSS IE Issues
+  -->
+  <script src="js/modernizr-custom-v2.7.1.min.js"></script>
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/jquery-migrate-1.4.1.min.js"></script>
+
+  
+
+  <!--
+  Solved Psuedo Elements IE Issues
+  -->
+  <script src="js/calcheight.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.skitter.min.js"></script>
+  <script src="js/responsiveslides.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/wow.min.js"></script>
+
+  <!-- Para sa Carousel -->
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- END -->
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+
+  <!--?php wp_footer(); ?-->
+</body>
+</html>
+<!-- End Footer -->
